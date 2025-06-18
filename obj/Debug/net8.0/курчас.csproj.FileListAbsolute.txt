@@ -65,3 +65,4 @@ C:\Users\prdb\source\repos\курчас\obj\Debug\net8.0\refint\Avalonia\кур�
 C:\Users\prdb\source\repos\курчас\obj\Debug\net8.0\курчас.csproj.Up2Date
 C:\Users\prdb\source\repos\курчас\obj\Debug\net8.0\курчас.genruntimeconfig.cache
 C:\Users\prdb\source\repos\курчас\obj\Debug\net8.0\ref\курчас.dll
+C:\Users\prdb\source\repos\курчас\obj\Debug\net8.0\курчас.sourcelink.json
