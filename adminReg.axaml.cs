@@ -25,8 +25,14 @@ public partial class adminReg : Window
         }
         else
         {
-            Error.Text = "ошибка ввода";
+            Error.Text = "Ошибка ввода";
         }
     }
-    
+    private void AdminRegBack_OnClick(object? sender, RoutedEventArgs e)
+    {
+        adapter adapter = new adapter();
+        adapter.Show();
+        Close();
+    }
+
 }

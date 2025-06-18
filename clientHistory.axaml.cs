@@ -5,13 +5,13 @@ using Avalonia.Markup.Xaml;
 
 namespace курчас;
 
-public partial class createOrders : Window
+public partial class clientHistory : Window
 {
-    public createOrders()
+    public clientHistory()
     {
         InitializeComponent();
     }
-    private void ClientOrdersBack_OnClick(object? sender, RoutedEventArgs e)
+    private void ClientHistoryBack_OnClick(object? sender, RoutedEventArgs e)
     {
         clientAdapterSec clientAdapterSec = new clientAdapterSec();
         clientAdapterSec.Show();

@@ -2,14 +2,109 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="700" d:DesignHeight="600"
+	
         x:Class="курчас.clientReg"
         Title="clientReg">
 	<DockPanel Background="#D8BFD8">
+		<StackPanel>
+			<Button
+					   Click="ClientRegBack_OnClick"
+					   Name="ClientRegBack"
+					   Content="Назад"
+					   FontSize="15"
+					   Width="65" Height="30"
+					   CornerRadius="45"
+					   VerticalContentAlignment="Bottom"
+					   HorizontalContentAlignment="Left"
+					   Margin="10, 10"/>
+		</StackPanel>
 		<StackPanel Orientation="Vertical"
 					VerticalAlignment="Center"
 					HorizontalAlignment="Center"
 					>
+			<TextBox
+		  Name="NameClient"
+		  FontSize="24"
+		  Width="402" Height="50"
+		  CornerRadius="45"
+		  Watermark="Никнейм"
+		  VerticalContentAlignment="Center"
+		  HorizontalContentAlignment="Center"
+		  Margin="5"/>
+			<TextBox
+		  Name="UserClient"
+		  FontSize="24"
+		  Width="402" Height="50"
+		  CornerRadius="45"
+		  Watermark="Логин в мессенджере"
+		  VerticalContentAlignment="Center"
+		  HorizontalContentAlignment="Center"
+		  Margin="5"/>
+			<TextBox
+		  Name="FIOClient"
+		  FontSize="24"
+		  Width="402" Height="50"
+		  CornerRadius="45"
+		  Watermark="ФИО"
+		  VerticalContentAlignment="Center"
+		  HorizontalContentAlignment="Center"
+		  Margin="5"/>
+			<TextBox
+		  Name="PhoneClient"
+		  FontSize="24"
+		  Width="402" Height="50"
+		  CornerRadius="45"
+		  Watermark="Телефон"
+		  VerticalContentAlignment="Center"
+		  HorizontalContentAlignment="Center"
+		  Margin="5"/>
+			<TextBox
+		  Name="CityClient"
+		  FontSize="24"
+		  Width="402" Height="50"
+		  CornerRadius="45"
+		  Watermark="Город"
+		  VerticalContentAlignment="Center"
+		  HorizontalContentAlignment="Center"
+		  Margin="5"/>
+			<TextBox
+		  Name="OPPClient"
+		  FontSize="24"
+		  Width="402" Height="50"
+		  CornerRadius="45"
+		  Watermark="Название ПВЗ"
+		  VerticalContentAlignment="Center"
+		  HorizontalContentAlignment="Center"
+		  Margin="5"/>
+			<TextBox
+		  Name="AddressClient"
+		  FontSize="24"
+		  Width="402" Height="50"
+		  CornerRadius="45"
+		  Watermark="Адрес ПВЗ"
+		  VerticalContentAlignment="Center"
+		  HorizontalContentAlignment="Center"
+		  Margin="5"/>
+			<TextBox
+		  Name="PasswordClient"
+		  FontSize="24"
+		  Width="402" Height="50"
+		  CornerRadius="45"
+		  Watermark="Пароль"
+		  VerticalContentAlignment="Center"
+		  HorizontalContentAlignment="Center"
+		  Margin="5"/>
+			<Button
+					   Click="Client_Permit_OnClick"
+					   Name="Client_Permit"
+					   Content="Готово"
+					   FontSize="24"
+					   Width="402" Height="56"
+					   CornerRadius="45"
+					   VerticalContentAlignment="Center"
+					   HorizontalContentAlignment="Center"
+					   Margin="10, 10"/>
 		</StackPanel>
 	</DockPanel>
 </Window>

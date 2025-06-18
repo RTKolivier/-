@@ -3,14 +3,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="700" d:DesignHeight="600"
-	
-        x:Class="курчас.adminHistory"
-        Title="adminHistory">
+        x:Class="курчас.clientHistory"
+        Title="clientHistory">
 	<DockPanel Background="#D8BFD8">
 		<StackPanel>
 			<Button
-					   Click="AdminHistoryBack_OnClick"
-					   Name="AdminHistoryBack"
+					   Click="ClientHistoryBack_OnClick"
+					   Name="ClientHistoryBack"
 					   Content="Назад"
 					   FontSize="15"
 					   Width="65" Height="30"

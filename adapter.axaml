@@ -2,18 +2,29 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="500" d:DesignHeight="200"
-		ClientSize="500,200"
+        mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="200"
         x:Class="курчас.adapter"
         Title="adapter">
 	<DockPanel Background="#D8BFD8">
+		<StackPanel>
+			<Button
+					   Click="AdapterBack_OnClick"
+					   Name="AdapterBack"
+					   Content="Назад"
+					   FontSize="15"
+					   Width="65" Height="30"
+					   CornerRadius="45"
+					   VerticalContentAlignment="Bottom"
+					   HorizontalContentAlignment="Left"
+					   Margin="10, 10"/>
+		</StackPanel>
 		<StackPanel Orientation="Vertical"
 					VerticalAlignment="Center"
 					HorizontalAlignment="Center"
 					>
 			<Button
-		  Click="Authorization_Client_OnClick"
-		  Name="Client_Authorization"
+		  Click="Client_OnClick"
+		  Name="Client"
 		  Content="Клиент"
 		  FontSize="24"
 		  Width="402" Height="56"

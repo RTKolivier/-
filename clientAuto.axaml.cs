@@ -5,9 +5,9 @@ using Avalonia.Markup.Xaml;
 
 namespace курчас;
 
-public partial class clientReg : Window
+public partial class clientAuto : Window
 {
-    public clientReg()
+    public clientAuto()
     {
         InitializeComponent();
     }
@@ -17,7 +17,7 @@ public partial class clientReg : Window
         clientAdapterSec.Show();
         Close();
     }
-    private void ClientRegBack_OnClick(object? sender, RoutedEventArgs e)
+    private void ClientAutoBack_OnClick(object? sender, RoutedEventArgs e)
     {
         clientAdapter clientAdapter = new clientAdapter();
         clientAdapter.Show();
