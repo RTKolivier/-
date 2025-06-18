@@ -38,6 +38,10 @@
 					   VerticalContentAlignment="Center"
 					   HorizontalContentAlignment="Center"
 					   Margin="15, 0"/>
+			<TextBlock 
+				Name="Error"> 
+				
+			</TextBlock>
 		</StackPanel>
 	</DockPanel>
 </Window>

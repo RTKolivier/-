@@ -24,6 +24,9 @@ build_property.EnableCodeStyleSeverity =
 [C:/Users/prdb/source/repos/курчас/adapter.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/prdb/source/repos/курчас/adminHistory.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/prdb/source/repos/курчас/adminReg.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
