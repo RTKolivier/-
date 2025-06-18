@@ -11,8 +11,8 @@ public partial class MainWindow : Window
     }
     private void CreateOrder_OnClick(object? sender, RoutedEventArgs e)
     {
-        createOrders createOrder = new createOrders();
-        createOrder.Show();
+        createNonameOrders createNonameOrders = new createNonameOrders();
+        createNonameOrders.Show();
         Close();
     }
     private void CreateAccount_OnClick(object? sender, RoutedEventArgs e)
