@@ -1,102 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\",
+  "WorkspaceRootPath": "C:\\Users\\prdb\\source\\repos\\-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\createnonameorders.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:createnonameorders.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\createnonameorders.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:createnonameorders.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\createorders.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:createorders.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\createorders.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:createorders.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\adapter.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:adapter.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clienthistory.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:clienthistory.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clienthistory.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:clienthistory.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientadaptersec.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:clientadaptersec.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\adminhistory.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\prdb\\source\\repos\\-\\adminhistory.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:adminhistory.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\adminhistory.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\prdb\\source\\repos\\-\\adminhistory.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:adminhistory.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\adapter.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:adapter.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\prdb\\source\\repos\\-\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientadaptersec.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:clientadaptersec.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\prdb\\source\\repos\\-\\models\\cao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:models\\cao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientauto.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:clientauto.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\prdb\\source\\repos\\-\\models\\acrylicsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:models\\acrylicsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientadapter.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:clientadapter.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\prdb\\source\\repos\\-\\models\\addhardwaresize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:models\\addhardwaresize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientadapter.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:clientadapter.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\prdb\\source\\repos\\-\\models\\typeofhardware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:models\\typeofhardware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientreg.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:clientreg.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\prdb\\source\\repos\\-\\models\\hardwarecolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:models\\hardwarecolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientauto.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:clientauto.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\prdb\\source\\repos\\-\\models\\hardware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:models\\hardware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\adminreg.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:adminreg.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\adminreg.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:adminreg.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientreg.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:clientreg.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\\u043E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\prdb\\source\\repos\\-\\models\\typeofacrylic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:models\\typeofacrylic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,295 +50,136 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "createNonameOrders.axaml",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\createNonameOrders.axaml",
-              "RelativeDocumentMoniker": "createNonameOrders.axaml",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\createNonameOrders.axaml",
-              "RelativeToolTip": "createNonameOrders.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-18T21:05:02.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "createNonameOrders.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\createNonameOrders.axaml.cs",
-              "RelativeDocumentMoniker": "createNonameOrders.axaml.cs",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\createNonameOrders.axaml.cs",
-              "RelativeToolTip": "createNonameOrders.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T21:05:02.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "adapter.axaml",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\adapter.axaml",
-              "RelativeDocumentMoniker": "adapter.axaml",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\adapter.axaml",
-              "RelativeToolTip": "adapter.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-18T09:36:18.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "adminHistory.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\adminHistory.axaml.cs",
-              "RelativeDocumentMoniker": "adminHistory.axaml.cs",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\adminHistory.axaml.cs",
-              "RelativeToolTip": "adminHistory.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T10:39:35.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "adapter.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\adapter.axaml.cs",
-              "RelativeDocumentMoniker": "adapter.axaml.cs",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\adapter.axaml.cs",
-              "RelativeToolTip": "adapter.axaml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB0AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T09:36:18.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "createOrders.axaml",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\createOrders.axaml",
-              "RelativeDocumentMoniker": "createOrders.axaml",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\createOrders.axaml",
-              "RelativeToolTip": "createOrders.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-18T10:24:03.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "createOrders.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\createOrders.axaml.cs",
-              "RelativeDocumentMoniker": "createOrders.axaml.cs",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\createOrders.axaml.cs",
-              "RelativeToolTip": "createOrders.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Title": "Cao.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\-\\Models\\Cao.cs",
+              "RelativeDocumentMoniker": "Models\\Cao.cs",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\-\\Models\\Cao.cs",
+              "RelativeToolTip": "Models\\Cao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T10:24:03.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\MainWindow.axaml",
-              "RelativeDocumentMoniker": "MainWindow.axaml",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\MainWindow.axaml",
-              "RelativeToolTip": "MainWindow.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-11T08:46:56.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T10:05:04.92Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MainWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\MainWindow.axaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\MainWindow.axaml.cs",
-              "RelativeToolTip": "MainWindow.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Title": "AcrylicSize.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\-\\Models\\AcrylicSize.cs",
+              "RelativeDocumentMoniker": "Models\\AcrylicSize.cs",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\-\\Models\\AcrylicSize.cs",
+              "RelativeToolTip": "Models\\AcrylicSize.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T08:46:54.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T09:44:11.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "adminHistory.axaml",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\adminHistory.axaml",
-              "RelativeDocumentMoniker": "adminHistory.axaml",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\adminHistory.axaml",
-              "RelativeToolTip": "adminHistory.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-18T19:07:47.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "clientAdapterSec.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientAdapterSec.axaml.cs",
-              "RelativeDocumentMoniker": "clientAdapterSec.axaml.cs",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientAdapterSec.axaml.cs",
-              "RelativeToolTip": "clientAdapterSec.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "AddHardwareSize.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\-\\Models\\AddHardwareSize.cs",
+              "RelativeDocumentMoniker": "Models\\AddHardwareSize.cs",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\-\\Models\\AddHardwareSize.cs",
+              "RelativeToolTip": "Models\\AddHardwareSize.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T20:00:42.017Z"
+              "WhenOpened": "2025-06-19T09:42:16.823Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "clientHistory.axaml",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientHistory.axaml",
-              "RelativeDocumentMoniker": "clientHistory.axaml",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientHistory.axaml",
-              "RelativeToolTip": "clientHistory.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-18T20:35:47.757Z"
+              "DocumentIndex": 6,
+              "Title": "TypeOfHardware.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\-\\Models\\TypeOfHardware.cs",
+              "RelativeDocumentMoniker": "Models\\TypeOfHardware.cs",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\-\\Models\\TypeOfHardware.cs",
+              "RelativeToolTip": "Models\\TypeOfHardware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T09:29:20.565Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "clientHistory.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientHistory.axaml.cs",
-              "RelativeDocumentMoniker": "clientHistory.axaml.cs",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientHistory.axaml.cs",
-              "RelativeToolTip": "clientHistory.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Title": "HardwareColor.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\-\\Models\\HardwareColor.cs",
+              "RelativeDocumentMoniker": "Models\\HardwareColor.cs",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\-\\Models\\HardwareColor.cs",
+              "RelativeToolTip": "Models\\HardwareColor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T20:35:47.611Z"
+              "WhenOpened": "2025-06-19T09:28:00.524Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "clientAdapter.axaml",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientAdapter.axaml",
-              "RelativeDocumentMoniker": "clientAdapter.axaml",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientAdapter.axaml",
-              "RelativeToolTip": "clientAdapter.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-18T19:33:15.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "clientReg.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientReg.axaml.cs",
-              "RelativeDocumentMoniker": "clientReg.axaml.cs",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientReg.axaml.cs",
-              "RelativeToolTip": "clientReg.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Hardware.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\-\\Models\\Hardware.cs",
+              "RelativeDocumentMoniker": "Models\\Hardware.cs",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\-\\Models\\Hardware.cs",
+              "RelativeToolTip": "Models\\Hardware.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T10:21:55.258Z"
+              "WhenOpened": "2025-06-19T09:22:33.227Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "clientAuto.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientAuto.axaml.cs",
-              "RelativeDocumentMoniker": "clientAuto.axaml.cs",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientAuto.axaml.cs",
-              "RelativeToolTip": "clientAuto.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "TypeOfAcrylic.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\-\\Models\\TypeOfAcrylic.cs",
+              "RelativeDocumentMoniker": "Models\\TypeOfAcrylic.cs",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\-\\Models\\TypeOfAcrylic.cs",
+              "RelativeToolTip": "Models\\TypeOfAcrylic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T19:43:59.612Z"
+              "WhenOpened": "2025-06-19T09:21:43.996Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "clientAdapter.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientAdapter.axaml.cs",
-              "RelativeDocumentMoniker": "clientAdapter.axaml.cs",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientAdapter.axaml.cs",
-              "RelativeToolTip": "clientAdapter.axaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\-\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\-\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwB0AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T19:33:14.476Z"
+              "WhenOpened": "2025-06-19T09:02:43.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "clientAdapterSec.axaml",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientAdapterSec.axaml",
-              "RelativeDocumentMoniker": "clientAdapterSec.axaml",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientAdapterSec.axaml",
-              "RelativeToolTip": "clientAdapterSec.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-18T20:00:42.359Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "adminReg.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\adminReg.axaml.cs",
-              "RelativeDocumentMoniker": "adminReg.axaml.cs",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\adminReg.axaml.cs",
-              "RelativeToolTip": "adminReg.axaml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCMAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "adminHistory.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\-\\adminHistory.axaml.cs",
+              "RelativeDocumentMoniker": "adminHistory.axaml.cs",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\-\\adminHistory.axaml.cs",
+              "RelativeToolTip": "adminHistory.axaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T10:08:12.329Z"
+              "WhenOpened": "2025-06-18T10:39:35.123Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "clientAuto.axaml",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientAuto.axaml",
-              "RelativeDocumentMoniker": "clientAuto.axaml",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientAuto.axaml",
-              "RelativeToolTip": "clientAuto.axaml",
+              "DocumentIndex": 0,
+              "Title": "adminHistory.axaml",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\-\\adminHistory.axaml",
+              "RelativeDocumentMoniker": "adminHistory.axaml",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\-\\adminHistory.axaml",
+              "RelativeToolTip": "adminHistory.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-18T19:43:59.761Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "clientReg.axaml",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientReg.axaml",
-              "RelativeDocumentMoniker": "clientReg.axaml",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\clientReg.axaml",
-              "RelativeToolTip": "clientReg.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-18T19:07:37.033Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "adminReg.axaml",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\adminReg.axaml",
-              "RelativeDocumentMoniker": "adminReg.axaml",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\adminReg.axaml",
-              "RelativeToolTip": "adminReg.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-18T10:08:12.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "app.manifest",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\app.manifest",
-              "RelativeDocumentMoniker": "app.manifest",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\app.manifest",
-              "RelativeToolTip": "app.manifest",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
-              "WhenOpened": "2025-06-18T19:13:13.919Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "App.axaml",
-              "DocumentMoniker": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\App.axaml",
-              "RelativeDocumentMoniker": "App.axaml",
-              "ToolTip": "C:\\Users\\\u041E\u043B\u0438\u0432\u044C\u0435\\source\\repos\\lolololo\\App.axaml",
-              "RelativeToolTip": "App.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-18T19:07:43.396Z"
+              "WhenOpened": "2025-06-18T19:07:47.353Z",
+              "EditorCaption": ""
             }
           ]
         }

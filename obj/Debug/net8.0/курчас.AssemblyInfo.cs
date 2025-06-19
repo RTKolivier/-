@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("курчас")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f09269e35cfa57cd6f1a2fb7ed1dec36ff44187")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2236ec8c6c2a592d5b1a1af159dd002eec29a3da")]
 [assembly: System.Reflection.AssemblyProductAttribute("курчас")]
 [assembly: System.Reflection.AssemblyTitleAttribute("курчас")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

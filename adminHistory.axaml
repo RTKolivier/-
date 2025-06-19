@@ -7,11 +7,13 @@
         x:Class="курчас.adminHistory"
         Title="adminHistory">
 	<DockPanel Background="#D8BFD8">
-		<StackPanel>
+		<StackPanel 
+			DockPanel.Dock="Top"
+			Background="#FFE4B5">
 			<Button
 					   Click="AdminHistoryBack_OnClick"
 					   Name="AdminHistoryBack"
-					   Content="Назад"
+					   Content="Выход"
 					   FontSize="15"
 					   Width="65" Height="30"
 					   CornerRadius="45"
@@ -22,7 +24,105 @@
 		<StackPanel Orientation="Vertical"
 					VerticalAlignment="Center"
 					HorizontalAlignment="Center"
+					Margin="20,20,20,20"
 					>
+			<ScrollViewer
+				Height="500"
+				>
+			<ListBox
+				Width="600"
+				Name="AdminHistory_List"
+				Background="#FFEFD5">
+				<ListBox.ItemTemplate>
+					<DataTemplate
+						x:CompileBindings="False">
+							<StackPanel>
+								<StackPanel
+									Orientation="Vertical">
+									<StackPanel
+										Orientation="Horizontal">
+										<TextBlock
+											Text="ID: "/>
+									<TextBlock
+										Text="{Binding OrdersId}"/></StackPanel>
+									<StackPanel
+										Orientation="Horizontal">
+										<TextBlock
+											Text="Имя заказа: "/>
+									<TextBlock
+										Text="{Binding OrdersFilesname}"/></StackPanel>
+								<StackPanel
+										Orientation="Horizontal">
+									<TextBlock
+											Text="Дата создания заказа: "/>
+									<TextBlock
+										Text="{Binding OrdersDate}"/></StackPanel>
+									<StackPanel
+										Orientation="Horizontal">
+										<TextBlock
+											Text="Толщина акрила: "/>
+									<TextBlock
+										Text="{Binding OrdersTypeacrylic.TypeofacrylicThickness}"/></StackPanel>
+									<StackPanel
+										Orientation="Horizontal">
+										<TextBlock
+											Text="Размер акрила: "/>
+									<TextBlock
+										Text="{Binding AcrylicSizeNavigation.AcrylicsizeSize}"/></StackPanel>
+									<StackPanel 
+										Orientation="Horizontal">
+										<TextBlock
+											Text="Кол-во изделий: "/>
+									<TextBlock
+										Text="{Binding OrdersQuantity}"/></StackPanel>
+									<StackPanel Orientation="Horizontal">
+										<TextBlock
+											Text="Вид фурнитуры: "/>
+										<TextBlock
+											Text="{Binding OrdersHardware.HardwareType.TypeofhardwareType}"/>
+									</StackPanel>
+									<StackPanel 
+										Orientation="Horizontal">
+										<TextBlock
+											Text="Цвет фурнитуры: "/>
+									<TextBlock
+										Text="{Binding OrdersHardware.HardwareColor.HardwarecolorColor}"/></StackPanel>
+									<StackPanel  
+										Orientation="Horizontal">
+										<TextBlock
+											Text="Кол-во фурнитуры: "/>
+									<TextBlock
+										Text="{Binding OrdersQuantityhardware}"/></StackPanel>
+									<StackPanel   
+										Orientation="Horizontal">
+										<TextBlock
+											Text="Размер колец: "/>
+									<TextBlock
+										Text="{Binding OrdersAddhardwareNavigation.AddhardwareSize.AddhardwaresizeSize}"/></StackPanel>
+									<StackPanel
+										Orientation="Horizontal">
+										<TextBlock
+											Text="Цвет колец: "/>
+									<TextBlock
+										Text="{Binding OrdersAddhardwareNavigation.AddhardwareColor.HardwarecolorColor}"/></StackPanel>
+									<StackPanel
+										Orientation="Horizontal">
+										<TextBlock
+											Text="Кол-во колец: "/>
+									<TextBlock
+										Text="{Binding OrdersQuantityaddhardware}"/></StackPanel>
+									<StackPanel
+										Orientation="Horizontal">
+										<TextBlock
+											Text="Итоговая стоимость: "/>
+										<TextBlock
+											Text="{Binding OrdersPrice}"/></StackPanel>
+								</StackPanel>
+							</StackPanel>
+					</DataTemplate>
+				</ListBox.ItemTemplate>
+			</ListBox>
+			</ScrollViewer>
 		</StackPanel>
 	</DockPanel>
 </Window>
