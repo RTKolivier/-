@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\prdb\\source\\repos\\-\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\prdb\\source\\repos\\-\\clientauto.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:clientauto.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\prdb\\source\\repos\\-\\clientauto.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:clientauto.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\prdb\\source\\repos\\-\\adminhistory.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:adminhistory.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\prdb\\source\\repos\\-\\clienthistory.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:clienthistory.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\prdb\\source\\repos\\-\\clienthistory.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:clienthistory.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|c:\\users\\prdb\\source\\repos\\-\\clientreg.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A223CF42-960F-4F3A-9008-783CA379B187}|\u043A\u0443\u0440\u0447\u0430\u0441.csproj|solutionrelative:clientreg.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +54,70 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clientAuto.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\-\\clientAuto.axaml.cs",
+              "RelativeDocumentMoniker": "clientAuto.axaml.cs",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\-\\clientAuto.axaml.cs*",
+              "RelativeToolTip": "clientAuto.axaml.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwB4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T11:27:53.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "adminHistory.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\-\\adminHistory.axaml.cs",
+              "RelativeDocumentMoniker": "adminHistory.axaml.cs",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\-\\adminHistory.axaml.cs",
+              "RelativeToolTip": "adminHistory.axaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T11:27:04.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clientHistory.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\-\\clientHistory.axaml.cs",
+              "RelativeDocumentMoniker": "clientHistory.axaml.cs",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\-\\clientHistory.axaml.cs*",
+              "RelativeToolTip": "clientHistory.axaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T11:26:38.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clientHistory.axaml",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\-\\clientHistory.axaml",
+              "RelativeDocumentMoniker": "clientHistory.axaml",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\-\\clientHistory.axaml",
+              "RelativeToolTip": "clientHistory.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-19T11:26:34.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clientAuto.axaml",
+              "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\-\\clientAuto.axaml",
+              "RelativeDocumentMoniker": "clientAuto.axaml",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\-\\clientAuto.axaml",
+              "RelativeToolTip": "clientAuto.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-19T11:26:14.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\-\\Models\\Client.cs",
               "RelativeDocumentMoniker": "Models\\Client.cs",
@@ -42,33 +125,31 @@
               "RelativeToolTip": "Models\\Client.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwBcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T10:40:43.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T10:40:43.229Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "clientReg.axaml.cs",
               "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\-\\clientReg.axaml.cs",
               "RelativeDocumentMoniker": "clientReg.axaml.cs",
-              "ToolTip": "C:\\Users\\prdb\\source\\repos\\-\\clientReg.axaml.cs*",
-              "RelativeToolTip": "clientReg.axaml.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\prdb\\source\\repos\\-\\clientReg.axaml.cs",
+              "RelativeToolTip": "clientReg.axaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T10:40:20.507Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "clientReg.axaml",
               "DocumentMoniker": "C:\\Users\\prdb\\source\\repos\\-\\clientReg.axaml",
               "RelativeDocumentMoniker": "clientReg.axaml",
               "ToolTip": "C:\\Users\\prdb\\source\\repos\\-\\clientReg.axaml",
               "RelativeToolTip": "clientReg.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-19T10:29:49.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T10:29:49.685Z"
             }
           ]
         }

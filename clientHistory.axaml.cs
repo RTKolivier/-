@@ -7,6 +7,7 @@ namespace курчас;
 
 public partial class clientHistory : Window
 {
+    
     public clientHistory()
     {
         InitializeComponent();
