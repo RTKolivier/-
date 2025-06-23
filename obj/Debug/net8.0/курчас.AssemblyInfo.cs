@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("курчас")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+740615653689e92de36c2325b957ec144eaadf1d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+539d6c83395bbafab46122a392b14e932d108ebf")]
 [assembly: System.Reflection.AssemblyProductAttribute("курчас")]
 [assembly: System.Reflection.AssemblyTitleAttribute("курчас")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

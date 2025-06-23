@@ -9,6 +9,7 @@ namespace курчас;
 
 public partial class clientReg : Window
 {
+    Client Sessionclient = new Client();
     public Client lastclient = DbHelper.context.Clients.OrderBy(x => x.ClientsId).Last();
     public clientReg()
     {
@@ -16,8 +17,9 @@ public partial class clientReg : Window
     }
     private void Client_Permit_OnClick(object? sender, RoutedEventArgs e)
     {
-        AddClient();
-        clientAdapterSec clientAdapterSec = new clientAdapterSec();
+        
+        Sessionclient = AddClient();
+        clientAdapterSec clientAdapterSec = new clientAdapterSec(Sessionclient);
         clientAdapterSec.Show();
         Close();
     }
@@ -27,7 +29,7 @@ public partial class clientReg : Window
         clientAdapter.Show();
         Close();
     }
-    public void AddClient()
+    public Client AddClient()
     {
         Client newClients = new Client
         {
@@ -43,6 +45,6 @@ public partial class clientReg : Window
         };
         DbHelper.context.Clients.Add(newClients);
         DbHelper.context.SaveChanges();
-
+        return newClients;
     }
 }

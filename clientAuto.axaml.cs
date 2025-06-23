@@ -23,7 +23,7 @@ public partial class clientAuto : Window
         var passwordClient = clients.FirstOrDefault(x => x.ClientsPassword == PasswordClient.Text);
         if (nameClient != null && passwordClient != null)
         {
-            clientAdapterSec clientAdapterSec = new clientAdapterSec();
+            clientAdapterSec clientAdapterSec = new clientAdapterSec(nameClient);
             clientAdapterSec.Show();
             Close();
         }

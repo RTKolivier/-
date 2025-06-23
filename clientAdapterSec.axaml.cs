@@ -2,24 +2,27 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
+using курчас.Models;
 
 namespace курчас;
 
 public partial class clientAdapterSec : Window
 {
-    public clientAdapterSec()
+    Client Sessionclient = new Client();
+    public clientAdapterSec(Client client)
     {
         InitializeComponent();
+        Sessionclient = client;
     }
     private void Create_Order_OnClick(object? sender, RoutedEventArgs e)
     {
-        createOrders createOrder = new createOrders();
+        createOrders createOrder = new createOrders(Sessionclient);
         createOrder.Show();
         Close();
     }
     private void Check_History_OnClick(object? sender, RoutedEventArgs e)
     {
-        clientHistory clientHistory = new clientHistory();
+        clientHistory clientHistory = new clientHistory(Sessionclient);
         clientHistory.Show();
         Close();
     }
