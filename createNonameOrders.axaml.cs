@@ -13,10 +13,20 @@ namespace курчас;
 public partial class createNonameOrders : Window
 {
     public NonameClient lastclient = DbHelper.context.NonameClients.OrderBy(x => x.NonameclientsId).Last();
-    public List<Hardware> hardwarefornoname = DbHelper.context.Hardwares.Include(x => x.HardwareColor)
+    public List<Hardware> hardwarefornoname = DbHelper.context.Hardwares
+        .Include(x => x.HardwareColor)
         .Include(x => x.HardwarePrice)
         .Include(x => x.HardwareType)
         .ToList();
+    public List<AddHardware> addhardwarefornoname = DbHelper.context.AddHardwares
+        .Include(x => x.AddhardwareColor)
+        .Include(x => x.AddhardwarePrice)
+        .Include(x => x.AddhardwareSize)
+        .ToList();
+    public List<AcrylicSize> AcrylicSizes = DbHelper.context.AcrylicSizes
+        .Include(x => x.AcrylicsizeSize).ToList();
+    public List<TypeOfAcrylic> TypeOfAcrylics = DbHelper.context.TypeOfAcrylics
+        .Include(x => x.TypeofacrylicThickness).ToList();
     public createNonameOrders()
     {
         InitializeComponent();
@@ -57,8 +67,19 @@ public partial class createNonameOrders : Window
              .Where(h => h.HardwareColor.HardwarecolorColor == Color_Hardware.SelectedItem 
                          && h.HardwareType.TypeofhardwareType == Type_Hardware.SelectedItem)
              .Select(x => x.HardwareId).First(),
-         
-         
+         OrdersAddhardware = addhardwarefornoname
+             .Where(h => h.AddhardwareColor.HardwarecolorColor == Color_AddHardware.SelectedItem 
+                         && h.AddhardwareSize.AddhardwaresizeSize == Size_AddHardware.SelectedItem)
+             .Select(x => x.AddhardwareId).First(),
+         OrdersQuantity = int.Parse(Quantity_Acrylic.Text),
+         OrdersQuantityhardware = int.Parse(Quantity_Hardware.Text),
+         OrdersQuantityaddhardware = int.Parse(Quantity_AddHardware.Text),
+         OrdersTypeacrylicid = TypeOfAcrylics
+             .Where(h => h.TypeofacrylicThickness == Thickness_Acrylic.SelectedItem)
+             .Select(x => x.TypeofacrylicId).First(),
+         AcrylicSize = AcrylicSizes
+             .Where(h => h.AcrylicsizeSize == Size_Acrylic.SelectedItem)
+             .Select(x => x.AcrylicsizeId).First(),
         };
     }
 }
