@@ -16,6 +16,7 @@ public partial class createNonameOrders : Window
 {
     public Data_Price price = new Data_Price();
     public NonameClient lastclient = DbHelper.context.NonameClients.OrderBy(x => x.NonameclientsId).Last();
+    public Order lastorder = DbHelper.context.Orders.OrderBy(x=> x.OrdersId).Last();
     public List<Hardware> hardwarefornoname = DbHelper.context.Hardwares
         .Include(x => x.HardwareColor)
         .Include(x => x.HardwarePrice)
@@ -46,6 +47,7 @@ public partial class createNonameOrders : Window
         mainWindow.Show();
         Close();
     }
+    
 
     private void CalculatePrice_OnClick(object? sender, RoutedEventArgs e)
     {
@@ -76,26 +78,39 @@ public partial class createNonameOrders : Window
         DbHelper.context.NonameClients.Add(newNonameClient);
         DbHelper.context.SaveChanges();
         
-        Order newNonameOrdrs = new Order
+        var newNonameOrdrs = new Order
         {
+            OrdersId = lastorder.OrdersId + 1,
          OrdersFilesname = OrderName.Text,
          OrdersHardwareid = hardwarefornoname
-             .Where(h => h.HardwareColor.HardwarecolorColor == Color_Hardware.SelectedItem 
-                         && h.HardwareType.TypeofhardwareType == Type_Hardware.SelectedItem)
-             .Select(x => x.HardwareId).First(),
+             .Where(h => h.HardwareColor.HardwarecolorColor == Color_Hardware.SelectedItem.ToString() 
+                         && h.HardwareType.TypeofhardwareType == Type_Hardware.SelectedItem.ToString())
+             .Select(x => x.HardwareId).FirstOrDefault(),
          OrdersAddhardware = addhardwarefornoname
-             .Where(h => h.AddhardwareColor.HardwarecolorColor == Color_AddHardware.SelectedItem 
-                         && h.AddhardwareSize.AddhardwaresizeSize == Size_AddHardware.SelectedItem)
-             .Select(x => x.AddhardwareId).First(),
+             .Where(h => h.AddhardwareColor.HardwarecolorColor == Color_AddHardware.SelectedItem.ToString() 
+                         && h.AddhardwareSize.AddhardwaresizeSize == Size_AddHardware.SelectedItem.ToString())
+             .Select(x => x.AddhardwareId).FirstOrDefault(),
          OrdersQuantity = int.Parse(Quantity_Acrylic.Text),
          OrdersQuantityhardware = int.Parse(Quantity_Hardware.Text),
          OrdersQuantityaddhardware = int.Parse(Quantity_AddHardware.Text),
          OrdersTypeacrylicid = TypeOfAcrylics
-             .Where(h => h.TypeofacrylicThickness == Thickness_Acrylic.SelectedItem)
-             .Select(x => x.TypeofacrylicId).First(),
+             .Where(h => h.TypeofacrylicThickness == Thickness_Acrylic.SelectedItem.ToString())
+             .Select(x => x.TypeofacrylicId).FirstOrDefault(),
          AcrylicSize = AcrylicSizes
-             .Where(h => h.AcrylicsizeSize == Size_Acrylic.SelectedItem)
-             .Select(x => x.AcrylicsizeId).First(),
+             .Where(h => h.AcrylicsizeSize == Size_Acrylic.SelectedItem.ToString())
+             .Select(x => x.AcrylicsizeId).FirstOrDefault(),
+         OrdersDate = DateOnly.FromDateTime(DateTime.Now),
+         OrdersPrice = FinalPrice
         };
+        DbHelper.context.Orders.Add(newNonameOrdrs);
+        DbHelper.context.SaveChanges();
+    }
+
+    private void SaveOrders_onClick(object? sender, RoutedEventArgs e)
+    {
+        CreateNonameOrder();
+        MainWindow mainWindow = new MainWindow();
+        mainWindow.Show();
+        Close();
     }
 }

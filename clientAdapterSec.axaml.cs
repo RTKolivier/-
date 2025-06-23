@@ -20,12 +20,6 @@ public partial class clientAdapterSec : Window
         createOrder.Show();
         Close();
     }
-    private void Check_History_OnClick(object? sender, RoutedEventArgs e)
-    {
-        clientHistory clientHistory = new clientHistory(Sessionclient);
-        clientHistory.Show();
-        Close();
-    }
     private void ClientAdapterSecBack_OnClick(object? sender, RoutedEventArgs e)
     {
         clientAdapter clientAdapter = new clientAdapter();

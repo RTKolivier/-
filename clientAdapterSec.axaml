@@ -34,16 +34,7 @@
 	  VerticalContentAlignment="Center"
 	  HorizontalContentAlignment="Center"
 	  Margin="15"/>
-			<Button
-					   Click="Check_History_OnClick"
-					   Name="Check_History"
-					   Content="Просмотреть историю заказов"
-					   FontSize="24"
-					   Width="402" Height="56"
-					   CornerRadius="45"
-					   VerticalContentAlignment="Center"
-					   HorizontalContentAlignment="Center"
-					   Margin="15, 0"/>
+			
 		</StackPanel>
 	</DockPanel>
 </Window>

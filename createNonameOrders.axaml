@@ -166,6 +166,18 @@
 					Name="Final_Price"> 
 				</TextBlock>
 			</StackPanel>
+			<StackPanel>
+				<Button
+					Click="SaveOrders_onClick"
+					Name="SaveOrders"
+					Content="Сохранить заказ "
+					FontSize="24"
+					Width="402" Height="56"
+					CornerRadius="45"
+					VerticalContentAlignment="Center"
+					HorizontalContentAlignment="Center"
+					Margin="15, 0"/>
+			</StackPanel>
 		</StackPanel>
 	</DockPanel>
 </Window>
