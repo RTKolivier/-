@@ -7,7 +7,9 @@
         x:Class="курчас.adminReg"
         Title="adminReg">
 	<DockPanel Background="#D8BFD8">
-		<StackPanel>
+		<StackPanel
+			DockPanel.Dock="Top"
+			Background="#FFE4B5">
 			<Button
 					   Click="AdminRegBack_OnClick"
 					   Name="AdminRegBack"

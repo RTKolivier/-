@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="MainWindow.axaml" value="курчас.csproj" />
+        <entry key="adapter.axaml" value="курчас.csproj" />
+        <entry key="adminHistory.axaml" value="курчас.csproj" />
+        <entry key="adminReg.axaml" value="курчас.csproj" />
+        <entry key="clientAdapter.axaml" value="курчас.csproj" />
+        <entry key="clientAdapterSec.axaml" value="курчас.csproj" />
+        <entry key="clientAuto.axaml" value="курчас.csproj" />
+        <entry key="clientHistory.axaml" value="курчас.csproj" />
+        <entry key="clientReg.axaml" value="курчас.csproj" />
+        <entry key="createNonameOrders.axaml" value="курчас.csproj" />
+        <entry key="createOrders.axaml" value="курчас.csproj" />
+        <entry key="nonameHistory.axaml" value="курчас.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

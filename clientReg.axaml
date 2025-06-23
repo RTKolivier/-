@@ -7,7 +7,9 @@
         x:Class="курчас.clientReg"
         Title="clientReg">
 	<DockPanel Background="#D8BFD8">
-		<StackPanel>
+		<StackPanel
+			DockPanel.Dock="Top"
+			Background="#FFE4B5">
 			<Button
 					   Click="ClientRegBack_OnClick"
 					   Name="ClientRegBack"

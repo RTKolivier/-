@@ -6,7 +6,9 @@
         x:Class="курчас.adapter"
         Title="adapter">
 	<DockPanel Background="#D8BFD8">
-		<StackPanel>
+		<StackPanel
+			DockPanel.Dock="Top"
+			Background="#FFE4B5">
 			<Button
 					   Click="AdapterBack_OnClick"
 					   Name="AdapterBack"

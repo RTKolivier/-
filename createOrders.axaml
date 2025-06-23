@@ -6,7 +6,9 @@
 			x:Class="курчас.createOrders"
 			Title="createOrders">
 			<DockPanel Background="#D8BFD8">
-				<StackPanel>
+				<StackPanel
+					DockPanel.Dock="Top"
+					Background="#FFE4B5">
 					<Button
 							   Click="ClientOrdersBack_OnClick"
 							   Name="ClientOrdersBack"

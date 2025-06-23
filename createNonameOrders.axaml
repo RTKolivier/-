@@ -2,11 +2,13 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="700" d:DesignHeight="600"
+        mc:Ignorable="d" d:DesignWidth="900" d:DesignHeight="600"
         x:Class="курчас.createNonameOrders"
         Title="createNonameOrders">
 	<DockPanel Background="#D8BFD8">
-		<StackPanel>
+		<StackPanel
+			DockPanel.Dock="Top"
+			Background="#FFE4B5">
 			<Button
 					   Click="CreateNonameOrdersBack_OnClick"
 					   Name="CreateNonameOrdersBack"
@@ -22,6 +24,148 @@
 					VerticalAlignment="Center"
 					HorizontalAlignment="Center"
 					>
+			<StackPanel
+				Orientation="Horizontal"
+				HorizontalAlignment="Center">
+			<TextBox
+				Name="NameNoname"
+				FontSize="24"
+				Width="300" Height="50"
+				CornerRadius="45"
+				Watermark="Никнейм"
+				VerticalContentAlignment="Center"
+				HorizontalContentAlignment="Center"
+				Margin="5"/>
+			<TextBox
+				Name="UserNoname"
+				FontSize="24"
+				Width="300" Height="50"
+				CornerRadius="45"
+				Watermark="Ник в соцсети"
+				VerticalContentAlignment="Center"
+				HorizontalContentAlignment="Center"
+				Margin="5"/>
+			</StackPanel>
+			<TextBox
+				Name="OrderName"
+				FontSize="24"
+				Width="402" Height="50"
+				CornerRadius="45"
+				Watermark="Название заказа"
+				VerticalContentAlignment="Center"
+				HorizontalContentAlignment="Center"
+				Margin="5"/>
+			<StackPanel
+				Orientation="Horizontal">
+			<ComboBox
+				Name="Thickness_Acrylic"
+				PlaceholderText="Толщина акрила"
+				FontSize="24"
+				Width="270" Height="50"
+				VerticalContentAlignment="Center"
+				HorizontalContentAlignment="Center"
+				Margin="5"
+				CornerRadius="45"/>
+			<ComboBox
+				Name="Size_Acrylic"
+				PlaceholderText="Размер акрила"
+				FontSize="24"
+				Width="270" Height="50"
+				VerticalContentAlignment="Center"
+				HorizontalContentAlignment="Center"
+				Margin="5"
+				CornerRadius="45"/>
+			<TextBox
+				Name="Quantity_Acrylic"
+				FontSize="24"
+				Width="270" Height="50"
+				CornerRadius="45"
+				Watermark="Кол-во акрила"
+				VerticalContentAlignment="Center"
+				HorizontalContentAlignment="Center"
+				Margin="5"/>
+		</StackPanel>
+			<StackPanel
+				Orientation="Horizontal">
+				<ComboBox
+					Name="Type_Hardware"
+					PlaceholderText="Тип фурнитуры"
+					FontSize="24"
+					Width="270" Height="50"
+					VerticalContentAlignment="Center"
+					HorizontalContentAlignment="Center"
+					Margin="5"
+					CornerRadius="45"/>
+				<ComboBox
+					Name="Color_Hardware"
+					PlaceholderText="Цвет фурнитуры"
+					FontSize="24"
+					Width="270" Height="50"
+					VerticalContentAlignment="Center"
+					HorizontalContentAlignment="Center"
+					Margin="5"
+					CornerRadius="45"/>
+				<TextBox
+					Name="Quantity_Hardware"
+					FontSize="24"
+					Width="270" Height="50"
+					CornerRadius="45"
+					Watermark="Кол-во фурнитуры"
+					VerticalContentAlignment="Center"
+					HorizontalContentAlignment="Center"
+					Margin="5"/>
+			</StackPanel>
+			<StackPanel
+				Orientation="Horizontal">
+				<ComboBox
+					Name="Size_AddHardware"
+					PlaceholderText="Размер колец"
+					FontSize="24"
+					Width="270" Height="50"
+					VerticalContentAlignment="Center"
+					HorizontalContentAlignment="Center"
+					Margin="5"
+					CornerRadius="45"/>
+				<ComboBox
+					Name="Color_AddHardware"
+					PlaceholderText="Цвет колец"
+					FontSize="24"
+					Width="270" Height="50"
+					VerticalContentAlignment="Center"
+					HorizontalContentAlignment="Center"
+					Margin="5"
+					CornerRadius="45"/>
+				<TextBox
+					Name="Quantity_AddHardware"
+					FontSize="24"
+					Width="270" Height="50"
+					CornerRadius="45"
+					Watermark="Кол-во колец"
+					VerticalContentAlignment="Center"
+					HorizontalContentAlignment="Center"
+					Margin="5"/>
+			</StackPanel>
+			<StackPanel
+				Orientation="Horizontal">
+				<Button
+					Click="CalculatePrice_OnClick"
+					Name="CalculatePrice"
+					Content="Итоговая Цена: "
+					FontSize="24"
+					Width="402" Height="56"
+					CornerRadius="45"
+					VerticalContentAlignment="Center"
+					HorizontalContentAlignment="Center"
+					Margin="15, 0"/>
+				<TextBlock
+					FontSize="24"
+					Background="AntiqueWhite"
+					HorizontalAlignment="Center"
+					Foreground="White"
+					Margin="15"
+					Name="Final_Price"> 
+				</TextBlock>
+			</StackPanel>
 		</StackPanel>
 	</DockPanel>
 </Window>

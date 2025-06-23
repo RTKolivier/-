@@ -6,7 +6,9 @@
         x:Class="курчас.clientAdapter"
         Title="clientAdapter">
 	<DockPanel Background="#D8BFD8">
-		<StackPanel>
+		<StackPanel
+			DockPanel.Dock="Top"
+			Background="#FFE4B5">
 			<Button
 					   Click="ClientAdapterBack_OnClick"
 					   Name="ClientAdapterBack"

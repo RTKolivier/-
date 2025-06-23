@@ -6,7 +6,9 @@
         x:Class="курчас.clientHistory"
         Title="clientHistory">
 	<DockPanel Background="#D8BFD8">
-		<StackPanel>
+		<StackPanel
+			DockPanel.Dock="Top"
+			Background="#FFE4B5">
 			<Button
 					   Click="ClientHistoryBack_OnClick"
 					   Name="ClientHistoryBack"

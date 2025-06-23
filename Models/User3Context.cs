@@ -23,6 +23,8 @@ public partial class User3Context : DbContext
 
     public virtual DbSet<Cao> Caos { get; set; }
 
+    public virtual DbSet<Caononame> Caononames { get; set; }
+
     public virtual DbSet<Client> Clients { get; set; }
 
     public virtual DbSet<EightEight> EightEights { get; set; }
@@ -161,6 +163,24 @@ public partial class User3Context : DbContext
             entity.HasOne(d => d.CaoOrders).WithMany()
                 .HasForeignKey(d => d.CaoOrdersid)
                 .HasConstraintName("cao_cao_ordersid_fkey");
+        });
+
+        modelBuilder.Entity<Caononame>(entity =>
+        {
+            entity
+                .HasNoKey()
+                .ToTable("caononame", "KYRSACH");
+
+            entity.Property(e => e.CaononameNonameid).HasColumnName("caononame_nonameid");
+            entity.Property(e => e.CaononameOrderid).HasColumnName("caononame_orderid");
+
+            entity.HasOne(d => d.CaononameNoname).WithMany()
+                .HasForeignKey(d => d.CaononameNonameid)
+                .HasConstraintName("caononame_caononame_nonameid_fkey");
+
+            entity.HasOne(d => d.CaononameOrder).WithMany()
+                .HasForeignKey(d => d.CaononameOrderid)
+                .HasConstraintName("caononame_caononame_orderid_fkey");
         });
 
         modelBuilder.Entity<Client>(entity =>

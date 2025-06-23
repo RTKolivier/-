@@ -6,7 +6,10 @@
         x:Class="курчас.nonameHistory"
         Title="nonameHistory">
 	<DockPanel Background="#D8BFD8">
-		<StackPanel>
+		<StackPanel
+			DockPanel.Dock="Top"
+			Background="#FFE4B5"
+			>
 			<Button
 					   Click="NonameHistoryBack_OnClick"
 					   Name="NonameHistoryBack"
@@ -22,6 +25,20 @@
 					VerticalAlignment="Center"
 					HorizontalAlignment="Center"
 					>
+			<!-- <ScrollViewer -->
+			<!-- 	Height="500"> -->
+			<!-- 	<ListBox -->
+			<!-- 		Width="600" -->
+			<!-- 		Name="NonameHistory_List" -->
+			<!-- 		Background="#FFEFD5"> -->
+			<!-- 		<ListBox.ItemTemplate> -->
+			<!-- 			<DataTemplate -->
+			<!-- 				x:CompileBindings="False"> -->
+			<!-- 				 -->
+			<!-- 			</DataTemplate> -->
+			<!-- 		</ListBox.ItemTemplate> -->
+			<!-- 	</ListBox> -->
+			<!-- </ScrollViewer> -->
 		</StackPanel>
 	</DockPanel>
 </Window>
