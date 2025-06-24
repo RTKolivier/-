@@ -139,7 +139,7 @@
 					FontSize="24"
 					Background="AntiqueWhite"
 					HorizontalAlignment="Center"
-					Foreground="White"
+					Foreground="Black"
 					Margin="15"
 					Name="Final_Price"> 
 				</TextBlock>
